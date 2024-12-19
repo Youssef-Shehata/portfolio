@@ -86,7 +86,7 @@ export default function Home() {
                 </div>
 
                 {/* Projects */}
-                <div className="grid grid-rows  gap-4">
+                <div key="" className="grid grid-rows  gap-4">
                     {projectsData.projects.map((project) => (
 
                         <Card key={project.id} className="flex-col bg-[#f1f5f9] content-between align-items:space-between h-full hover:shadow-lg transition-shadow  content-between">

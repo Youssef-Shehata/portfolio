@@ -72,7 +72,7 @@
             "title": "Wordle",
             "summary": "Re-creating the popular word guessing game Wordle using React.",
             "link": "https://youssef-shehata.github.io/wordle-clone-2/",
-            "github": "https://github.com/Youssef-Shehata/Worldle-clone-2"
+            "github": "https://github.com/Youssef-Shehata/Wordle-clone-2"
         },
         {
             "title": "Tic Tac Toe",
@@ -85,114 +85,6 @@
             "title": "Fitness-App",
             "summary": "Java mobile application for calculating bmi and exploring new workouts.",
             "github": "https://github.com/Youssef-Shehata/Fitness_app"
-        }
-    ],
-    "prjcts": [
-        {
-            "tag": "react",
-            "data": [
-                {
-                    "id": "valorant-roulette",
-                    "title": "valorantroulette",
-                    "summary": "a platform to randomizes your team based on your map preferences in valorant.",
-                    "link": "https://youssef-shehata.github.io/valorant-roulette/",
-                    "github": "https://github.com/Youssef-Shehata/valorant-roulette"
-                },
-                {
-                    "id": "wordle",
-                    "title": "Wordle",
-                    "summary": "Re-creating the popular word guessing game Wordle using React.",
-                    "link": "https://youssef-shehata.github.io/wordle-clone-2/",
-                    "github": "https://github.com/Youssef-Shehata/Worldle-clone-2"
-                },
-                {
-                    "title": "Tic Tac Toe",
-                    "summary": "simple tic tac toe game .",
-                    "link": "https://youssef-shehata.github.io/tic-tac-toe/",
-                    "github": "https://github.com/Youssef-Shehata/Tic-Tac-Toe"
-                }
-            ]
-        },
-        {
-            "tag": "Rust",
-            "data": [
-                {
-                    "id": "rust-http-server",
-                    "title": "Rust HTTP Server",
-                    "summary": "A high-performance HTTP server built from scratch in Rust",
-                    "github": "https://github.com/Youssef-Shehata/rust-http-server"
-                },
-                {
-                    "id": "json-parser",
-                    "title": "Json-Parser",
-                    "summary": "a json parsing library for rust",
-                    "github": "https://github.com/Youssef-Shehata/json-parser"
-                },
-                {
-                    "id": "git",
-                    "title": "Rusty-Git",
-                    "summary": "writing git intertnals from scratch in rust",
-                    "github": "https://github.com/Youssef-Shehata/rusty-git"
-                },
-                {
-                    "id": "ascii-art",
-                    "title": "ascii-art",
-                    "summary": "cli tool written in rust that generates ascii art from images",
-                    "github": "https://github.com/Youssef-Shehata/ascii-img"
-                },
-                {
-                    "id": "rusty-grep",
-                    "title": "Rusty-Grep",
-                    "summary": "writing the famous cli tool grep from scratch in rust",
-                    "github": "https://github.com/Youssef-Shehata/a-rusty-grip"
-                }
-            ]
-        },
-        {
-            "tag": "go",
-            "data": [
-                {
-                    "id": "yapocalypse",
-                    "title": "Yapocalyps",
-                    "summary": "basically a twitter clone.",
-                    "github": "https://github.com/Youssef-Shehata/yapocalypse"
-                },
-                {
-                    "id": "talktuah",
-                    "title": "Talktuah",
-                    "summary": "Chat app",
-                    "github": "https://github.com/Youssef-Shehata/talktuah"
-                }
-            ]
-        },
-        {
-            "tag": "js",
-            "data": [
-                {
-                    "id": "eduToons",
-                    "title": "EduToons",
-                    "summary": "Education platform",
-                    "github": "https://github.com/Youssef-Shehata/EduToons"
-                },
-                {
-                    "id": "blogaton",
-                    "title": "Blogaton",
-                    "summary": "blogging website",
-                    "github": "https://github.com/Youssef-Shehata/Blogaton"
-                }
-            ]
-        },
-        {
-            "id": "fitness-app",
-            "title": "Fitness-App",
-            "summary": "Java mobile application for calculating bmi and exploring new workouts.",
-            "github": "https://github.com/Youssef-Shehata/Fitness_app"
-        },
-        {
-            "id": "mem-managment",
-            "title": "Mem-Management",
-            "summary": "writing my own mem allocator and tiny garbage collector in c",
-            "github": "https://github.com/Youssef-Shehata/Mem-Management"
         }
     ]
 }
