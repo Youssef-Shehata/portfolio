@@ -4,87 +4,101 @@
             "id": "rust-http-server",
             "title": "Rust HTTP Server",
             "summary": "A high-performance HTTP server built from scratch in Rust",
-            "github": "https://github.com/Youssef-Shehata/rust-http-server"
+            "github": "https://github.com/Youssef-Shehata/rust-http-server",
+            "stack": ["Rust"]
         },
         {
             "id": "git",
             "title": "Rusty-Git",
             "summary": "writing git from scratch in rust",
-            "github": "https://github.com/Youssef-Shehata/rusty-git"
+            "github": "https://github.com/Youssef-Shehata/rusty-git",
+            "stack": ["Rust"]
         },
         {
             "id": "mem-managment",
             "title": "Mem-Management",
             "summary": "writing my own mem allocator and tiny garbage collector in c",
-            "github": "https://github.com/Youssef-Shehata/Mem-Management"
+            "github": "https://github.com/Youssef-Shehata/Mem-Management",
+            "stack": ["C"]
         },
         {
             "id": "ascii-art",
             "title": "ascii-art",
             "summary": "cli tool written in rust that generates ascii art from images",
-            "github": "https://github.com/Youssef-Shehata/ascii-img"
+            "github": "https://github.com/Youssef-Shehata/ascii-img",
+            "stack": ["C"]
         },
         {
             "id": "rusty-grep",
             "title": "Rusty-Grep",
             "summary": "writing the famous cli tool grep from scratch in rust",
-            "github": "https://github.com/Youssef-Shehata/a-rusty-grip"
+            "github": "https://github.com/Youssef-Shehata/a-rusty-grip",
+            "stack": ["Rust"]
         },
         {
             "id": "json-parser",
             "title": "Json-Parser",
             "summary": "a json parsing library for rust",
-            "github": "https://github.com/Youssef-Shehata/json-parser"
+            "github": "https://github.com/Youssef-Shehata/json-parser",
+            "stack": ["Rust"]
         },
         {
             "id": "yapocalypse",
             "title": "Yapocalyps",
             "summary": "Yapocalypse is a microblogging platform inspired by Twitter, where users can \"yap\" (tweet) and follow other users.",
-            "github": "https://github.com/Youssef-Shehata/yapocalypse"
+            "github": "https://github.com/Youssef-Shehata/yapocalypse",
+            "stack": ["Go"]
         },
         {
             "id": "eduToons",
             "title": "EduToons",
             "summary": "an innovative e-learning platform that transforms traditional teaching materials into engaging animated content using advanced AI technologies.",
-            "github": "https://github.com/Youssef-Shehata/EduToons"
+            "github": "https://github.com/Youssef-Shehata/EduToons",
+            "stack": ["Next"]
         },
         {
             "id": "blogaton",
             "title": "Blogaton",
             "summary": " dynamic and interactive blog website where users can share their blogs, follow other users, and engage with content through likes and comments. This project is focused on developing a robust backend to support these features.",
-            "github": "https://github.com/Youssef-Shehata/Blogaton"
+            "github": "https://github.com/Youssef-Shehata/Blogaton",
+            "stack": ["Node"]
         },
         {
             "id": "talktuah",
             "title": "Talktuah",
             "summary": "anpnymous chat app [in progress]",
-            "github": "https://github.com/Youssef-Shehata/talktuah"
+            "github": "https://github.com/Youssef-Shehata/talktuah",
+            "stack": ["Go"]
         },
         {
             "id": "valorant-roulette",
             "title": "valorantroulette",
             "summary": "a platform to randomizes your team based on your map preferences in valorant.",
             "link": "https://youssef-shehata.github.io/valorant-roulette/",
-            "github": "https://github.com/Youssef-Shehata/valorant-roulette"
+            "github": "https://github.com/Youssef-Shehata/valorant-roulette",
+            "stack": ["React"]
         },
         {
             "id": "wordle",
             "title": "Wordle",
             "summary": "Re-creating the popular word guessing game Wordle using React.",
             "link": "https://youssef-shehata.github.io/wordle-clone-2/",
-            "github": "https://github.com/Youssef-Shehata/Wordle-clone-2"
+            "github": "https://github.com/Youssef-Shehata/Wordle-clone-2",
+            "stack": ["React"]
         },
         {
             "title": "Tic Tac Toe",
             "summary": "tic-tac-toe game.",
             "link": "https://youssef-shehata.github.io/tic-tac-toe/",
-            "github": "https://github.com/Youssef-Shehata/Tic-Tac-Toe"
+            "github": "https://github.com/Youssef-Shehata/Tic-Tac-Toe",
+            "stack": ["React"]
         },
         {
             "id": "fitness-app",
             "title": "Fitness-App",
             "summary": "Java mobile application for calculating bmi and exploring new workouts.",
-            "github": "https://github.com/Youssef-Shehata/Fitness_app"
+            "github": "https://github.com/Youssef-Shehata/Fitness_app",
+            "stack": ["Java"]
         }
     ]
 }

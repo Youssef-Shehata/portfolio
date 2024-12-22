@@ -95,14 +95,20 @@ export default function Home() {
                                 <CardHeader className='gap-2 '>
 
                                     <CardTitle>{project.title}</CardTitle>
-                                    <CardDescription >{project.summary}</CardDescription>
+                                    <CardDescription >
+                                        {project.summary}
+
+                                    </CardDescription>
                                 </CardHeader>
                             </Link>
                             <CardContent />
 
 
                             <CardFooter >
+                                <div className="bg-[#2c2b30] text-white p-0.5 px-2.5 rounded border-solid border">
 
+                                    {project.stack}
+                                </div>
                                 <a
                                     href={project.github}
                                     target="_blank"
@@ -118,6 +124,6 @@ export default function Home() {
                     ))}
                 </div>
             </div>
-        </main>
+        </main >
     );
 }
