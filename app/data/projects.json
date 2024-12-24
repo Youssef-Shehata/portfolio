@@ -4,7 +4,7 @@
             "id": "rust-http-server",
             "title": "Rust HTTP Server",
             "summary": "A high-performance HTTP server built from scratch in Rust",
-            "github": "https://github.com/Youssef-Shehata/rust-http-server",
+            "github": "https://github.com/Youssef-Shehata/http-server-in-rust-",
             "stack": ["Rust"]
         },
         {
@@ -66,16 +66,17 @@
         {
             "id": "talktuah",
             "title": "Talktuah",
-            "summary": "anpnymous chat app [in progress]",
+            "summary": "chat app [in progress]",
             "github": "https://github.com/Youssef-Shehata/talktuah",
             "stack": ["Go"]
         },
         {
             "id": "valorant-roulette",
-            "title": "valorantroulette",
+            "title": "Valorant Roulette",
             "summary": "a platform to randomizes your team based on your map preferences in valorant.",
-            "link": "https://youssef-shehata.github.io/valorant-roulette/",
-            "github": "https://github.com/Youssef-Shehata/valorant-roulette",
+            "link": "https://youssef-shehata.github.io/Valorant-Roulette/",
+            "github": "https://github.com/Youssef-Shehata/Valorant-Roulette",
+            "live":true,
             "stack": ["React"]
         },
         {
@@ -84,13 +85,15 @@
             "summary": "Re-creating the popular word guessing game Wordle using React.",
             "link": "https://youssef-shehata.github.io/wordle-clone-2/",
             "github": "https://github.com/Youssef-Shehata/Wordle-clone-2",
+            "live":true,
             "stack": ["React"]
         },
         {
             "title": "Tic Tac Toe",
             "summary": "tic-tac-toe game.",
-            "link": "https://youssef-shehata.github.io/tic-tac-toe/",
+            "link": "https://youssef-shehata.github.io/Tic-Tac-Toe/",
             "github": "https://github.com/Youssef-Shehata/Tic-Tac-Toe",
+            "live":true,
             "stack": ["React"]
         },
         {

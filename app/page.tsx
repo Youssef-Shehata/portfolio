@@ -104,18 +104,27 @@ export default function Home() {
                             <CardContent />
 
 
-                            <CardFooter >
-                                <div className="bg-[#2c2b30] text-white p-0.5 px-2.5 rounded border-solid border">
+                            <CardFooter className='flex justify-between'>
+                                <div className='flex flex-row align-center justify-center gap-2'>
+                                    {project.live &&
+                                        <div className="flex justify-center bg-[#0088c1] text-white p-0.5 px-2.5 rounded border-solid border">
+                                            Live
 
-                                    {project.stack}
+                                        </div>
+                                    }
+                                    {project.stack.map(a => (
+                                        <div key={a} className="flex justify-center bg-[#003134] text-white p-0.5 px-2.5 rounded border-solid border">
+                                            {a}
+                                        </div>
+                                    ))}
                                 </div>
+
                                 <a
                                     href={project.github}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-sm text-gray-500 hover:text-gray-700 w-full text-right "
+                                    className="text-sm px-2 p-1 w-fit text-gray-500 hover:text-gray-700 w-full text-right "
                                     onClick={(e) => e.stopPropagation()}
-
                                 >
                                     View on GitHub →
                                 </a>
