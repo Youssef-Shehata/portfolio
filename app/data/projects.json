@@ -1,108 +1,158 @@
 {
-    "projects": [
-        {
-            "id": "eduToons",
-            "title": "EduToons",
-            "summary": "an innovative e-learning platform that transforms traditional teaching materials into engaging animated content using advanced AI technologies.",
-            "github": "https://github.com/Youssef-Shehata/EduToons",
-            "stack": ["NextJs","AI" , "Blender" , "RVC", "Motion-Capture"]
-        },
-        {
-            "id": "blogaton",
-            "title": "Blogaton",
-            "summary": " dynamic and interactive blog website where users can share their blogs, follow other users, and engage with content through likes and comments. This project is focused on developing a robust backend to support these features.",
-            "github": "https://github.com/Youssef-Shehata/Blogaton",
-            "stack": ["Node","RESTful APIs","Databases" , "Validation"]
-        },
-        {
-            "id": "rust-http-server",
-            "title": "Rust HTTP Server",
-            "summary": "A high-performance HTTP server built from scratch in Rust",
-            "github": "https://github.com/Youssef-Shehata/http-server-in-rust-",
-            "stack": ["Rust","HTTP Protocol", "Networking"]
-        },
-        {
-            "id": "ascii-art",
-            "title": "ascii-art",
-            "summary": "cli tool written in rust that generates ascii art from images",
-            "github": "https://github.com/Youssef-Shehata/ascii-img",
-            "stack": ["Rust","CLI","Image Processing"]
-        },
-        {
-            "id": "rusty-grep",
-            "title": "Rusty-Grep",
-            "summary": "writing the famous cli tool grep from scratch in rust",
-            "github": "https://github.com/Youssef-Shehata/a-rusty-grip",
-            "stack": ["Rust","CLI" ,"String Manipulation"]
-        },
-        {
-            "id": "valorant-roulette",
-            "title": "Valorant Roulette",
-            "summary": "a platform to randomizes your team based on your map preferences in valorant.",
-            "link": "https://youssef-shehata.github.io/Valorant-Roulette/",
-            "github": "https://github.com/Youssef-Shehata/Valorant-Roulette",
-            "live":true,
-            "stack": ["React"]
-        },
-        {
-            "id": "git",
-            "title": "Rusty-Git",
-            "summary": "writing git from scratch in rust",
-            "github": "https://github.com/Youssef-Shehata/rusty-git",
-            "stack": ["Rust","CLI" ,"Version Control","Hashing"]
-        },
-        {
-            "id": "wordle",
-            "title": "Wordle",
-            "summary": "Re-creating the popular word guessing game Wordle using React.",
-            "link": "https://youssef-shehata.github.io/wordle-clone-2/",
-            "github": "https://github.com/Youssef-Shehata/Wordle-clone-2",
-            "live":true,
-            "stack": ["React","Game"]
-        },
-        {
-            "id": "yapocalypse",
-            "title": "Yapocalyps",
-            "summary": "Yapocalypse is a microblogging platform inspired by Twitter, where users can \"yap\" (tweet) and follow other users.",
-            "github": "https://github.com/Youssef-Shehata/yapocalypse",
-            "stack": ["Go","Kafka","Docker","Authentication","RESTful APIs","Databases" , "Validation"]
-        },
-        {
-            "id": "mem-managment",
-            "title": "Mem-Management",
-            "summary": "writing my own mem allocator and tiny garbage collector in c",
-            "github": "https://github.com/Youssef-Shehata/Mem-Management",
-            "stack": ["C","Memory Management", "Garbage Collection" , "Mark and Sweep"]
-        },
-        {
-            "id": "json-parser",
-            "title": "Json-Parser",
-            "summary": "a json parsing library for rust",
-            "github": "https://github.com/Youssef-Shehata/json-parser",
-            "stack": ["Rust","String Manipulation"]
-        },
-        {
-            "id": "talktuah",
-            "title": "Talktuah",
-            "summary": "chat app [in progress]",
-            "github": "https://github.com/Youssef-Shehata/talktuah",
-            "stack": ["Go","Websockets" ,"Real Time Communication", "Concurrency" , "User Management", "Security" , "Message Queues"]
-        },
-        {
-            "title": "Tic Tac Toe",
-            "summary": "tic-tac-toe game.",
-            "link": "https://youssef-shehata.github.io/Tic-Tac-Toe/",
-            "github": "https://github.com/Youssef-Shehata/Tic-Tac-Toe",
-            "live":true,
-            "stack": ["React","Game"]
-        },
-        {
-            "id": "fitness-app",
-            "title": "Fitness-App",
-            "summary": "Java mobile application for calculating bmi and exploring new workouts.",
-            "github": "https://github.com/Youssef-Shehata/Fitness_app",
-            "stack": ["Java","Android"]
-        }
-    ]
-}
+  "info": {
+    "name": "Youssef Shehata",
+    "title": "Sofware Engineer",
+    "summary": [
+      "Hi, im youssef,",
+      "I like linux, vim, and tmux",
+      "I hate Microsoft, LinkedIn and LeetCode.",
+      "Big fan of system design and architectural problems."
+    ],
 
+    "links": {
+      "Twitter": { "href": "https://x.com/seijuro_tj" },
+      "LinkedIn": { "href": "https://linkedin.com/in/youssef-shehata-shaaban" },
+      "Github": { "href": "https://github.com/Youssef-Shehata" }
+    }
+  },
+  "projects": [
+    {
+      "id": "clinic-reservation",
+      "title": "Clinic reservation system",
+      "summary": "A backend system for a real-time clinic reservation platform using WebSockets to enable instant updates between patients and clinic staff.",
+      "github": "https://github.com/Youssef-Shehata/clinic-reservation",
+      "stack": [
+        "Nodejs",
+        "Zod",
+        "Swagger",
+        "js-doc",
+        "Websockets",
+        "Prometheus"
+      ]
+    },
+    {
+      "id": "eduToons",
+      "title": "EduToons",
+      "summary": "an innovative e-learning platform that transforms traditional teaching materials into engaging animated content using advanced AI technologies.",
+      "github": "https://github.com/Youssef-Shehata/EduToons",
+      "stack": ["NextJs", "AI", "Blender", "RVC", "Motion-Capture"]
+    },
+    {
+      "id": "blogaton",
+      "title": "Blogaton",
+      "summary": " dynamic and interactive blog website where users can share their blogs, follow other users, and engage with content through likes and comments. This project is focused on developing a robust backend to support these features.",
+      "github": "https://github.com/Youssef-Shehata/Blogaton",
+      "stack": ["Node", "RESTful APIs", "Databases", "Validation"]
+    },
+    {
+      "id": "rust-http-server",
+      "title": "Rust HTTP Server",
+      "summary": "A high-performance HTTP server built from scratch in Rust",
+      "github": "https://github.com/Youssef-Shehata/http-server-in-rust-",
+      "stack": ["Rust", "HTTP Protocol", "Networking"]
+    },
+    {
+      "id": "ascii-art",
+      "title": "ascii-art",
+      "summary": "cli tool written in rust that generates ascii art from images",
+      "github": "https://github.com/Youssef-Shehata/ascii-img",
+      "stack": ["Rust", "CLI", "Image Processing"]
+    },
+    {
+      "id": "rusty-grep",
+      "title": "Rusty-Grep",
+      "summary": "writing the famous cli tool grep from scratch in rust",
+      "github": "https://github.com/Youssef-Shehata/a-rusty-grip",
+      "stack": ["Rust", "CLI", "String Manipulation"]
+    },
+    {
+      "id": "valorant-roulette",
+      "title": "Valorant Roulette",
+      "summary": "a platform to randomizes your team based on your map preferences in valorant.",
+      "link": "https://youssef-shehata.github.io/Valorant-Roulette/",
+      "github": "https://github.com/Youssef-Shehata/Valorant-Roulette",
+      "live": true,
+      "stack": ["React"]
+    },
+    {
+      "id": "git",
+      "title": "Rusty-Git",
+      "summary": "writing git from scratch in rust",
+      "github": "https://github.com/Youssef-Shehata/rusty-git",
+      "stack": ["Rust", "CLI", "Version Control", "Hashing"]
+    },
+    {
+      "id": "wordle",
+      "title": "Wordle",
+      "summary": "Re-creating the popular word guessing game Wordle using React.",
+      "link": "https://youssef-shehata.github.io/wordle-clone-2/",
+      "github": "https://github.com/Youssef-Shehata/Wordle-clone-2",
+      "live": true,
+      "stack": ["React", "Game"]
+    },
+    {
+      "id": "yapocalypse",
+      "title": "Yapocalyps",
+      "summary": "Yapocalypse is a microblogging platform inspired by Twitter, where users can \"yap\" (tweet) and follow other users.",
+      "github": "https://github.com/Youssef-Shehata/yapocalypse",
+      "stack": [
+        "Go",
+        "Kafka",
+        "Docker",
+        "Authentication",
+        "RESTful APIs",
+        "Databases",
+        "Validation"
+      ]
+    },
+    {
+      "id": "mem-managment",
+      "title": "Mem-Management",
+      "summary": "writing my own mem allocator and tiny garbage collector in c",
+      "github": "https://github.com/Youssef-Shehata/Mem-Management",
+      "stack": [
+        "C",
+        "Memory Management",
+        "Garbage Collection",
+        "Mark and Sweep"
+      ]
+    },
+    {
+      "id": "json-parser",
+      "title": "Json-Parser",
+      "summary": "a json parsing library for rust",
+      "github": "https://github.com/Youssef-Shehata/json-parser",
+      "stack": ["Rust", "String Manipulation"]
+    },
+    {
+      "id": "talktuah",
+      "title": "Talktuah",
+      "summary": "chat app [in progress]",
+      "github": "https://github.com/Youssef-Shehata/talktuah",
+      "stack": [
+        "Go",
+        "Websockets",
+        "Real Time Communication",
+        "Concurrency",
+        "User Management",
+        "Security",
+        "Message Queues"
+      ]
+    },
+    {
+      "title": "Tic Tac Toe",
+      "summary": "tic-tac-toe game.",
+      "link": "https://youssef-shehata.github.io/Tic-Tac-Toe/",
+      "github": "https://github.com/Youssef-Shehata/Tic-Tac-Toe",
+      "live": true,
+      "stack": ["React", "Game"]
+    },
+    {
+      "id": "fitness-app",
+      "title": "Fitness-App",
+      "summary": "Java mobile application for calculating bmi and exploring new workouts.",
+      "github": "https://github.com/Youssef-Shehata/Fitness_app",
+      "stack": ["Java", "Android"]
+    }
+  ]
+}
