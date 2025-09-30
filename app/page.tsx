@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import {
   Card,
   CardFooter,
@@ -75,7 +74,7 @@ export default function Home() {
         <div className="prose max-w-none mb-16">
           <p className="text-gray-900 text-xl px-12 ">
             {projectsData.info.summary.map((s) => {
-              return <div>{s}</div>;
+              return <div key={s}>{s}</div>;
             })}
           </p>
         </div>
