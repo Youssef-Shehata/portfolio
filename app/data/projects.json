@@ -3,10 +3,11 @@
     "name": "Youssef Shehata",
     "title": "Sofware Engineer",
     "summary": [
-      "Hi, im youssef,",
-      "I like linux, vim, and tmux",
-      "I hate Microsoft, LinkedIn and LeetCode.",
-      "Big fan of system design and architectural problems."
+      "Hi, im youssef, a Backend engineer with a focus on building systems that are not just functional, but efficient to work with.",
+      "I care a lot about developer experience — the tools, workflows, and small details that turn complex systems into something pleasant to build and maintain.",
+      "This shows up in everything I do, from backend architecture to infrastructure, automation and my daily linux setup.",
+      "I tend to learn by building, which means I’ve explored a bit of everything: APIs, DevOps, security, and the occasional failed attempt at developer tooling.",
+      "I also write code outside of work — partly to learn, partly to experiment, and partly because I just enjoy it."
     ],
 
     "links": {

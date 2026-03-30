@@ -72,11 +72,11 @@ export default function Home() {
         </div>
 
         <div className="prose max-w-none mb-16">
-          <p className="text-gray-900 text-xl px-12 ">
+          <div className="text-gray-900 text-xl px-12 ">
             {projectsData.info.summary.map((s) => {
-              return <div key={s}>{s}</div>;
+              return <p key={s}>{s}</p>;
             })}
-          </p>
+          </div>
         </div>
 
         {/* Projects */}
